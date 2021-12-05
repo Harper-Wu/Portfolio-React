@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+
+:root {
+  --clr-accent: #42d9c8;
+  --clr-dark: #252527;
+  --clr-light: #fff;
+
+  --fs-lg: 2rem;
+  --fs-md: 1.6rem;
+  --fs-sm: 1.2rem;
+
+  --fw-bold: 700;
+  --fw-reg: 400;
+  --fw-light: 300;
+
+  --border-radius: 10px;
+}
+
+body {
+  /* background-color: #222; */
+}

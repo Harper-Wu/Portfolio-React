@@ -1,0 +1,50 @@
+.proj-container {
+  position: inherit;
+  background-color: var(--clr-light);
+  padding: 2rem;
+}
+
+.proj-container > h1 {
+  text-align: center;
+  padding: 1rem 0 3rem;
+}
+
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 25rem));
+  gap: 3rem;
+  list-style: none;
+  justify-content: center;
+}
+
+.cards-item {
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgb(56 125 255 / 17%);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.cards-item-link {
+  text-decoration: none;
+  color: var(--clr-dark);
+}
+
+.cards-item-img {
+  height: 16rem;
+  width: 100%;
+  object-fit: fill;
+}
+
+.cards-item:hover {
+  transform: scale(1.1);
+}
+
+.cards-item-title {
+  padding: 0.5rem;
+}
+
+.cards-item-text {
+  padding: 0 0.5rem 1rem;
+}

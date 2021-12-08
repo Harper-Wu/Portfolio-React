@@ -31,7 +31,7 @@ export default function Navbar() {
       <div className="navbar-container">
         <Link
           className="navbar-logo"
-          to="hero-section"
+          to="/"
           spy={true}
           smooth={true}
           duration={200}

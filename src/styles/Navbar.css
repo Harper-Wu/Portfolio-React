@@ -20,6 +20,7 @@
   font-weight: var(--fw-bold);
   color: var(--clr-light);
   font-size: var(--fs-md);
+  cursor: pointer;
 }
 
 .fa-code {
@@ -32,6 +33,7 @@
   margin: 0 2rem 0 auto;
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 }
 
 .nav-link {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 // import { Link } from "react-router-dom";
-import { Link, ScrollLink, animateScroll } from "react-scroll";
+import { Link } from "react-scroll";
 import "../styles/Navbar.css";
 import "../styles/Button.css";
 import Button from "./Button";

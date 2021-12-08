@@ -11,14 +11,14 @@ export default function ProjSection() {
       <h1>Projects</h1>
       <div className="cards-wrapper">
         <CardItem
-          path={<TodoApp />}
+          path="https://harper-wu.github.io/Portfolio-React/#/todoapp"
           src={ImgTodo}
           title="A Todo App"
           text="A simple todo list that keeps you on track."
           label="Personal Project"
         />
         <CardItem
-          path={<TodoApp />}
+          path="https://harper-wu.github.io/4D-POCKET/"
           src={ImgPocket}
           title="First Website"
           text="A website introduce history of web development and some code snippets."
